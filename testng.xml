@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test thread-count="5" name="MyTest">
+	  <parameter name="browsername" value="firefox" />
+    <classes>
+      <class name="com.automation.tests.scripts.LoginSalesforcetestcase"/>
+      <class name="com.automation.tests.scripts.UserMenuDropDownsalesforce"/>
+       <class name="com.automation.tests.scripts.CreateAccountSalesforce"/>
+        <class name="com.automation.tests.scripts.CreateopportunitiesSalesforce"/>
+         <class name="com.automation.tests.scripts.LeadsSalesforce"/>
+               <class name="com.automation.tests.scripts.ContactsSalesforce"/>
+          <class name="com.automation.tests.scripts.RandomSalesforce"/>
+    </classes>
+  </test> <!-- MyTest -->
+</suite> <!-- MySuite -->

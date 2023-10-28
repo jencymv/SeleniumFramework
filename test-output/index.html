@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MySuite" class="navigator-link">
+              <span class="suite-name border-failed">MySuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MySuite" class="navigator-link ">
+                    <span>C:\Users\jency\OneDrive\Desktop\QA Java\SeleniumAutomationFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MySuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MySuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MySuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MySuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MySuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MySuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 7 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods failed suite-MySuite"> (hide)</a> <!-- hide-methods failed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods failed suite-MySuite"> (show)</a> <!-- show-methods failed suite-MySuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MySuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateAccountSalesforce" class="method navigator-link" hash-for-method="create_an_account">create_an_account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateAccountSalesforce" class="method navigator-link" hash-for-method="create_new_view">create_new_view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateAccountSalesforce" class="method navigator-link" hash-for-method="edit_view">edit_view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.UserMenuDropDownsalesforce" class="method navigator-link" hash-for-method="logout_from_user_menu">logout_from_user_menu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.UserMenuDropDownsalesforce" class="method navigator-link" hash-for-method="my_settings_from_drop_down">my_settings_from_drop_down</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.UserMenuDropDownsalesforce" class="method navigator-link" hash-for-method="select_myprofile_from_drop_down">select_myprofile_from_drop_down</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.RandomSalesforce" class="method navigator-link" hash-for-method="verify_fname_lname">verify_fname_lname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MySuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods passed suite-MySuite"> (hide)</a> <!-- hide-methods passed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods passed suite-MySuite"> (show)</a> <!-- show-methods passed suite-MySuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MySuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.ContactsSalesforce" class="method navigator-link" hash-for-method="Check_my_contacts_view">Check_my_contacts_view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.ContactsSalesforce" class="method navigator-link" hash-for-method="View_contact_in_contact_page">View_contact_in_contact_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LeadsSalesforce" class="method navigator-link" hash-for-method="check_new_button_on_leads_home">check_new_button_on_leads_home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.ContactsSalesforce" class="method navigator-link" hash-for-method="check_recently_created_contact">check_recently_created_contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LoginSalesforcetestcase" class="method navigator-link" hash-for-method="check_remember_me">check_remember_me</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateAccountSalesforce" class="method navigator-link" hash-for-method="create_account_report">create_account_report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.ContactsSalesforce" class="method navigator-link" hash-for-method="create_new_contact">create_new_contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateopportunitiesSalesforce" class="method navigator-link" hash-for-method="create_new_opportunity">create_new_opportunity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LoginSalesforcetestcase" class="method navigator-link" hash-for-method="forgot_password">forgot_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LeadsSalesforce" class="method navigator-link" hash-for-method="leads_select_view">leads_select_view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LeadsSalesforce" class="method navigator-link" hash-for-method="leads_tab_link">leads_tab_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LeadsSalesforce" class="method navigator-link" hash-for-method="list_item_todays_leads_work">list_item_todays_leads_work</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LoginSalesforcetestcase" class="method navigator-link" hash-for-method="login_error_message">login_error_message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LoginSalesforcetestcase" class="method navigator-link" hash-for-method="login_to_salesforce">login_to_salesforce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateAccountSalesforce" class="method navigator-link" hash-for-method="merge_accounts">merge_accounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateopportunitiesSalesforce" class="method navigator-link" hash-for-method="opportunities_drop_down">opportunities_drop_down</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.UserMenuDropDownsalesforce" class="method navigator-link" hash-for-method="select_user_menu_from_drop_down">select_user_menu_from_drop_down</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateopportunitiesSalesforce" class="method navigator-link" hash-for-method="test_opportunity_pipeline_report">test_opportunity_pipeline_report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateopportunitiesSalesforce" class="method navigator-link" hash-for-method="test_quarterly_summary_report">test_quarterly_summary_report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.CreateopportunitiesSalesforce" class="method navigator-link" hash-for-method="test_stuck_opportunities_report">test_stuck_opportunities_report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LoginSalesforcetestcase" class="method navigator-link" hash-for-method="validate_login_error_message">validate_login_error_message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="com.automation.tests.scripts.LeadsSalesforce" class="method navigator-link" hash-for-method="validate_view_drop_down_list_contents">validate_view_drop_down_list_contents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MySuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MySuite" class="panel MySuite">
+          <div class="suite-MySuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.tests.scripts.UserMenuDropDownsalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout_from_user_menu">
+                  </a> <!-- logout_from_user_menu -->
+                  <span class="method-name">logout_from_user_menu</span>
+                  <div class="stack-trace">org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;div&quot;
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
+	at com.automation.tests.base.BaseSalesforce.selectDropDown(BaseSalesforce.java:213)
+	at com.automation.tests.scripts.UserMenuDropDownsalesforce.logout_from_user_menu(UserMenuDropDownsalesforce.java:250)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="my_settings_from_drop_down">
+                  </a> <!-- my_settings_from_drop_down -->
+                  <span class="method-name">my_settings_from_drop_down</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element with the reference 82d32593-f83a-4291-8768-a59d82659a9a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e, isElementDisplayed {id=82d32593-f83a-4291-8768-a59d82659a9a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:9714, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47292, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9714/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e)] -&gt; xpath: //*[@id=&quot;CustomizeTabs_font&quot;]]
+Session ID: ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:283)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	at com.automation.tests.base.BaseSalesforce.waitForVisibility(BaseSalesforce.java:140)
+	at com.automation.tests.scripts.UserMenuDropDownsalesforce.my_settings_from_drop_down(UserMenuDropDownsalesforce.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_myprofile_from_drop_down">
+                  </a> <!-- select_myprofile_from_drop_down -->
+                  <span class="method-name">select_myprofile_from_drop_down</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;uploadLink&quot; href=&quot;javascript:void(0);&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [936430a5-292d-4688-aef4-cb0bb6fce565, clickElement {id=7888b3e2-3035-496b-b131-3e76e05d7122}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:2868, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 35832, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:2868/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (936430a5-292d-4688-aef4-cb0bb6fce565)] -&gt; id: uploadLink]
+Session ID: 936430a5-292d-4688-aef4-cb0bb6fce565
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.automation.tests.base.BaseSalesforce.clickElement(BaseSalesforce.java:184)
+	at com.automation.tests.scripts.UserMenuDropDownsalesforce.select_myprofile_from_drop_down(UserMenuDropDownsalesforce.java:173)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-failed -->
+          <div class="suite-MySuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.tests.scripts.CreateAccountSalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_an_account">
+                  </a> <!-- create_an_account -->
+                  <span class="method-name">create_an_account</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Jency Abcd] but found [Jency x]
+	at com.automation.tests.scripts.CreateAccountSalesforce.create_an_account(CreateAccountSalesforce.java:201)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_new_view">
+                  </a> <!-- create_new_view -->
+                  <span class="method-name">create_new_view</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[1]/div[1]/form/div[1]/div/select/option[0]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [23b5e3d7-dd62-4cef-bc49-b3f242d396a8, findElement {using=xpath, value=/html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[1]/div[1]/form/div[1]/div/select/option[0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:5221, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9956, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5221/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23b5e3d7-dd62-4cef-bc49-b3f242d396a8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.automation.tests.scripts.CreateAccountSalesforce.create_new_view(CreateAccountSalesforce.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="edit_view">
+                  </a> <!-- edit_view -->
+                  <span class="method-name">edit_view</span>
+                  <div class="stack-trace">java.lang.AssertionError: Wrong username expected [Jency x] but found [Jency galok]
+	at com.automation.tests.scripts.CreateAccountSalesforce.edit_view(CreateAccountSalesforce.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-failed -->
+          <div class="suite-MySuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.tests.scripts.RandomSalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_fname_lname">
+                  </a> <!-- verify_fname_lname -->
+                  <span class="method-name">verify_fname_lname</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Jency x] but found [Jency x ]
+	at com.automation.tests.scripts.RandomSalesforce.verify_fname_lname(RandomSalesforce.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-failed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.scripts.UserMenuDropDownsalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_user_menu_from_drop_down">
+                  </a> <!-- select_user_menu_from_drop_down -->
+                  <span class="method-name">select_user_menu_from_drop_down</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.scripts.LoginSalesforcetestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_remember_me">
+                  </a> <!-- check_remember_me -->
+                  <span class="method-name">check_remember_me</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgot_password">
+                  </a> <!-- forgot_password -->
+                  <span class="method-name">forgot_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_error_message">
+                  </a> <!-- login_error_message -->
+                  <span class="method-name">login_error_message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_to_salesforce">
+                  </a> <!-- login_to_salesforce -->
+                  <span class="method-name">login_to_salesforce</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_login_error_message">
+                  </a> <!-- validate_login_error_message -->
+                  <span class="method-name">validate_login_error_message</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.scripts.ContactsSalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_my_contacts_view">
+                  </a> <!-- Check_my_contacts_view -->
+                  <span class="method-name">Check_my_contacts_view</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="View_contact_in_contact_page">
+                  </a> <!-- View_contact_in_contact_page -->
+                  <span class="method-name">View_contact_in_contact_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_recently_created_contact">
+                  </a> <!-- check_recently_created_contact -->
+                  <span class="method-name">check_recently_created_contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_new_contact">
+                  </a> <!-- create_new_contact -->
+                  <span class="method-name">create_new_contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.scripts.CreateAccountSalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_account_report">
+                  </a> <!-- create_account_report -->
+                  <span class="method-name">create_account_report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="merge_accounts">
+                  </a> <!-- merge_accounts -->
+                  <span class="method-name">merge_accounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.scripts.LeadsSalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_new_button_on_leads_home">
+                  </a> <!-- check_new_button_on_leads_home -->
+                  <span class="method-name">check_new_button_on_leads_home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leads_select_view">
+                  </a> <!-- leads_select_view -->
+                  <span class="method-name">leads_select_view</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leads_tab_link">
+                  </a> <!-- leads_tab_link -->
+                  <span class="method-name">leads_tab_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="list_item_todays_leads_work">
+                  </a> <!-- list_item_todays_leads_work -->
+                  <span class="method-name">list_item_todays_leads_work</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_view_drop_down_list_contents">
+                  </a> <!-- validate_view_drop_down_list_contents -->
+                  <span class="method-name">validate_view_drop_down_list_contents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.scripts.CreateopportunitiesSalesforce</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_new_opportunity">
+                  </a> <!-- create_new_opportunity -->
+                  <span class="method-name">create_new_opportunity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="opportunities_drop_down">
+                  </a> <!-- opportunities_drop_down -->
+                  <span class="method-name">opportunities_drop_down</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_opportunity_pipeline_report">
+                  </a> <!-- test_opportunity_pipeline_report -->
+                  <span class="method-name">test_opportunity_pipeline_report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_quarterly_summary_report">
+                  </a> <!-- test_quarterly_summary_report -->
+                  <span class="method-name">test_quarterly_summary_report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_stuck_opportunities_report">
+                  </a> <!-- test_stuck_opportunities_report -->
+                  <span class="method-name">test_stuck_opportunities_report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+        </div> <!-- panel MySuite -->
+        <div panel-name="test-xml-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jency\OneDrive\Desktop\QA Java\SeleniumAutomationFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MySuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MyTest&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.LoginSalesforcetestcase&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.UserMenuDropDownsalesforce&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.CreateAccountSalesforce&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.CreateopportunitiesSalesforce&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.LeadsSalesforce&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.ContactsSalesforce&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.scripts.RandomSalesforce&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyTest --&gt;
+&lt;/suite&gt; &lt;!-- MySuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MyTest (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MySuite');
+function tableData_MySuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'select_myprofile_from_drop_down')
+data.setCell(0, 2, 'com.automation.tests.scripts.UserMenuDropDownsalesforce')
+data.setCell(0, 3, 35861);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'merge_accounts')
+data.setCell(1, 2, 'com.automation.tests.scripts.CreateAccountSalesforce')
+data.setCell(1, 3, 23822);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'my_settings_from_drop_down')
+data.setCell(2, 2, 'com.automation.tests.scripts.UserMenuDropDownsalesforce')
+data.setCell(2, 3, 20782);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'create_new_view')
+data.setCell(3, 2, 'com.automation.tests.scripts.CreateAccountSalesforce')
+data.setCell(3, 3, 16824);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'create_account_report')
+data.setCell(4, 2, 'com.automation.tests.scripts.CreateAccountSalesforce')
+data.setCell(4, 3, 14882);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'check_remember_me')
+data.setCell(5, 2, 'com.automation.tests.scripts.LoginSalesforcetestcase')
+data.setCell(5, 3, 14741);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'create_new_contact')
+data.setCell(6, 2, 'com.automation.tests.scripts.ContactsSalesforce')
+data.setCell(6, 3, 10758);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Check_my_contacts_view')
+data.setCell(7, 2, 'com.automation.tests.scripts.ContactsSalesforce')
+data.setCell(7, 3, 10695);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'check_new_button_on_leads_home')
+data.setCell(8, 2, 'com.automation.tests.scripts.LeadsSalesforce')
+data.setCell(8, 3, 10453);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'check_recently_created_contact')
+data.setCell(9, 2, 'com.automation.tests.scripts.ContactsSalesforce')
+data.setCell(9, 3, 10213);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'leads_select_view')
+data.setCell(10, 2, 'com.automation.tests.scripts.LeadsSalesforce')
+data.setCell(10, 3, 9977);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_fname_lname')
+data.setCell(11, 2, 'com.automation.tests.scripts.RandomSalesforce')
+data.setCell(11, 3, 9887);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'create_an_account')
+data.setCell(12, 2, 'com.automation.tests.scripts.CreateAccountSalesforce')
+data.setCell(12, 3, 9258);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'leads_tab_link')
+data.setCell(13, 2, 'com.automation.tests.scripts.LeadsSalesforce')
+data.setCell(13, 3, 9165);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'edit_view')
+data.setCell(14, 2, 'com.automation.tests.scripts.CreateAccountSalesforce')
+data.setCell(14, 3, 9086);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'View_contact_in_contact_page')
+data.setCell(15, 2, 'com.automation.tests.scripts.ContactsSalesforce')
+data.setCell(15, 3, 8121);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_stuck_opportunities_report')
+data.setCell(16, 2, 'com.automation.tests.scripts.CreateopportunitiesSalesforce')
+data.setCell(16, 3, 8030);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'opportunities_drop_down')
+data.setCell(17, 2, 'com.automation.tests.scripts.CreateopportunitiesSalesforce')
+data.setCell(17, 3, 7910);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'list_item_todays_leads_work')
+data.setCell(18, 2, 'com.automation.tests.scripts.LeadsSalesforce')
+data.setCell(18, 3, 7366);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_opportunity_pipeline_report')
+data.setCell(19, 2, 'com.automation.tests.scripts.CreateopportunitiesSalesforce')
+data.setCell(19, 3, 7341);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'create_new_opportunity')
+data.setCell(20, 2, 'com.automation.tests.scripts.CreateopportunitiesSalesforce')
+data.setCell(20, 3, 7212);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_quarterly_summary_report')
+data.setCell(21, 2, 'com.automation.tests.scripts.CreateopportunitiesSalesforce')
+data.setCell(21, 3, 6948);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'select_user_menu_from_drop_down')
+data.setCell(22, 2, 'com.automation.tests.scripts.UserMenuDropDownsalesforce')
+data.setCell(22, 3, 6685);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validate_login_error_message')
+data.setCell(23, 2, 'com.automation.tests.scripts.LoginSalesforcetestcase')
+data.setCell(23, 3, 6253);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'forgot_password')
+data.setCell(24, 2, 'com.automation.tests.scripts.LoginSalesforcetestcase')
+data.setCell(24, 3, 5463);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'logout_from_user_menu')
+data.setCell(25, 2, 'com.automation.tests.scripts.UserMenuDropDownsalesforce')
+data.setCell(25, 3, 5321);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validate_view_drop_down_list_contents')
+data.setCell(26, 2, 'com.automation.tests.scripts.LeadsSalesforce')
+data.setCell(26, 3, 5034);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'login_to_salesforce')
+data.setCell(27, 2, 'com.automation.tests.scripts.LoginSalesforcetestcase')
+data.setCell(27, 3, 3160);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'login_error_message')
+data.setCell(28, 2, 'com.automation.tests.scripts.LoginSalesforcetestcase')
+data.setCell(28, 3, 2316);
+window.suiteTableData['MySuite']= { tableData: data, tableDiv: 'times-div-MySuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-MySuite">
+              </div> <!-- times-div-MySuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.LoginSalesforcetestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">check_remember_me</span>
+                <span class="method-start">13773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">28514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">29616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgot_password</span>
+                <span class="method-start">34614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">40077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">41122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_error_message</span>
+                <span class="method-start">48265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">50583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">51876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_to_salesforce</span>
+                <span class="method-start">56992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">60153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">61268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_login_error_message</span>
+                <span class="method-start">66048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">72303 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.UserMenuDropDownsalesforce</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">73347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logout_from_user_menu</span>
+                <span class="method-start">79133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">84458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">85640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">my_settings_from_drop_down</span>
+                <span class="method-start">90061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">110845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">111662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">select_myprofile_from_drop_down</span>
+                <span class="method-start">115749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">151610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">221874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">select_user_menu_from_drop_down</span>
+                <span class="method-start">226344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">233030 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.CreateAccountSalesforce</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">233872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_account_report</span>
+                <span class="method-start">238232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">253116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">253994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">create_an_account</span>
+                <span class="method-start">258300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">267559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">268457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">create_new_view</span>
+                <span class="method-start">272850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">289675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">290736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">edit_view</span>
+                <span class="method-start">295077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">304164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">305067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">merge_accounts</span>
+                <span class="method-start">309300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">333123 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.CreateopportunitiesSalesforce</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">333153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_new_opportunity</span>
+                <span class="method-start">339532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">346747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">348247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">opportunities_drop_down</span>
+                <span class="method-start">353779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">361690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">363001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_opportunity_pipeline_report</span>
+                <span class="method-start">367946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">375289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">376509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_quarterly_summary_report</span>
+                <span class="method-start">381041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">387990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">389210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_stuck_opportunities_report</span>
+                <span class="method-start">393413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">401443 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.LeadsSalesforce</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">402280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">check_new_button_on_leads_home</span>
+                <span class="method-start">407097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">417550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">418411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leads_select_view</span>
+                <span class="method-start">422805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">432784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">433578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leads_tab_link</span>
+                <span class="method-start">438226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">447392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">448265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">list_item_todays_leads_work</span>
+                <span class="method-start">452741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">460109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">461011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate_view_drop_down_list_contents</span>
+                <span class="method-start">465751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">470786 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.ContactsSalesforce</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">471878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Check_my_contacts_view</span>
+                <span class="method-start">477226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">487922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">488758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">View_contact_in_contact_page</span>
+                <span class="method-start">492850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">500972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">501837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">check_recently_created_contact</span>
+                <span class="method-start">506154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">516369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">517236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_new_contact</span>
+                <span class="method-start">521932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">532691 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.scripts.RandomSalesforce</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeTestMethod(firefox)</span>
+                <span class="method-start">533627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_fname_lname</span>
+                <span class="method-start">538029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterTestMethod</span>
+                <span class="method-start">547917 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
