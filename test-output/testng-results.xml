@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="22" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T12:02:44 EDT" name="MySuite" finished-at="2023-10-28T12:11:53 EDT" duration-ms="548955">
+    <groups>
+    </groups>
+    <test started-at="2023-10-28T12:02:44 EDT" name="MyTest" finished-at="2023-10-28T12:11:53 EDT" duration-ms="548955">
+      <class name="com.automation.tests.scripts.LeadsSalesforce">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:26 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:09:31 EDT" duration-ms="4817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="check_new_button_on_leads_home()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:31 EDT" name="check_new_button_on_leads_home" finished-at="2023-10-28T12:09:41 EDT" duration-ms="10453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_new_button_on_leads_home -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:41 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:09:42 EDT" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:42 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:09:47 EDT" duration-ms="4394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leads_select_view()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:47 EDT" name="leads_select_view" finished-at="2023-10-28T12:09:57 EDT" duration-ms="9977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leads_select_view -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:57 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:09:58 EDT" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:09:58 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:10:02 EDT" duration-ms="4648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="leads_tab_link()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:02 EDT" name="leads_tab_link" finished-at="2023-10-28T12:10:11 EDT" duration-ms="9165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leads_tab_link -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:11 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:10:12 EDT" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:12 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:10:17 EDT" duration-ms="4476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="list_item_todays_leads_work()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:17 EDT" name="list_item_todays_leads_work" finished-at="2023-10-28T12:10:24 EDT" duration-ms="7366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list_item_todays_leads_work -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:24 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:10:25 EDT" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:25 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:10:30 EDT" duration-ms="4739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="validate_view_drop_down_list_contents()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:30 EDT" name="validate_view_drop_down_list_contents" finished-at="2023-10-28T12:10:35 EDT" duration-ms="5034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_view_drop_down_list_contents -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LeadsSalesforce@43bc63a3]" started-at="2023-10-28T12:10:35 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:10:36 EDT" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.LeadsSalesforce -->
+      <class name="com.automation.tests.scripts.ContactsSalesforce">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:10:36 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:10:41 EDT" duration-ms="5348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="Check_my_contacts_view()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:10:41 EDT" name="Check_my_contacts_view" finished-at="2023-10-28T12:10:52 EDT" duration-ms="10695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_my_contacts_view -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:10:52 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:10:53 EDT" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:10:53 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:10:57 EDT" duration-ms="4092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="View_contact_in_contact_page()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:10:57 EDT" name="View_contact_in_contact_page" finished-at="2023-10-28T12:11:05 EDT" duration-ms="8121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_contact_in_contact_page -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:05 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:11:06 EDT" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:06 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:11:10 EDT" duration-ms="4317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="check_recently_created_contact()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:10 EDT" name="check_recently_created_contact" finished-at="2023-10-28T12:11:20 EDT" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_recently_created_contact -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:20 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:11:21 EDT" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:21 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:11:26 EDT" duration-ms="4696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="create_new_contact()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:26 EDT" name="create_new_contact" finished-at="2023-10-28T12:11:37 EDT" duration-ms="10758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_contact -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.ContactsSalesforce@702657cc]" started-at="2023-10-28T12:11:37 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:11:38 EDT" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.ContactsSalesforce -->
+      <class name="com.automation.tests.scripts.RandomSalesforce">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.RandomSalesforce@6a6cb05c]" started-at="2023-10-28T12:11:38 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:11:42 EDT" duration-ms="4402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="verify_fname_lname()[pri:0, instance:com.automation.tests.scripts.RandomSalesforce@6a6cb05c]" started-at="2023-10-28T12:11:42 EDT" name="verify_fname_lname" finished-at="2023-10-28T12:11:52 EDT" duration-ms="9887" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Jency x] but found [Jency x ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Jency x] but found [Jency x ]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.automation.tests.scripts.RandomSalesforce.verify_fname_lname(RandomSalesforce.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_fname_lname -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.RandomSalesforce@6a6cb05c]" started-at="2023-10-28T12:11:52 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:11:53 EDT" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.RandomSalesforce -->
+      <class name="com.automation.tests.scripts.CreateAccountSalesforce">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:06:38 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:06:42 EDT" duration-ms="4360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="create_account_report()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:06:42 EDT" name="create_account_report" finished-at="2023-10-28T12:06:57 EDT" duration-ms="14882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_account_report -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:06:57 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:06:58 EDT" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:06:58 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:07:02 EDT" duration-ms="4306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="create_an_account()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:02 EDT" name="create_an_account" finished-at="2023-10-28T12:07:11 EDT" duration-ms="9258" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Jency Abcd] but found [Jency x]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Jency Abcd] but found [Jency x]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.automation.tests.scripts.CreateAccountSalesforce.create_an_account(CreateAccountSalesforce.java:201)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_an_account -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:11 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:07:12 EDT" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:12 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:07:17 EDT" duration-ms="4393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="create_new_view()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:17 EDT" name="create_new_view" finished-at="2023-10-28T12:07:34 EDT" duration-ms="16824" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[1]/div[1]/form/div[1]/div/select/option[0]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [23b5e3d7-dd62-4cef-bc49-b3f242d396a8, findElement {using=xpath, value=/html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[1]/div[1]/form/div[1]/div/select/option[0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:5221, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9956, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5221/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23b5e3d7-dd62-4cef-bc49-b3f242d396a8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[1]/div[1]/form/div[1]/div/select/option[0]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [23b5e3d7-dd62-4cef-bc49-b3f242d396a8, findElement {using=xpath, value=/html/body/div[1]/div[2]/table/tbody/tr/td[2]/div[1]/div[1]/form/div[1]/div/select/option[0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:5221, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9956, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5221/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23b5e3d7-dd62-4cef-bc49-b3f242d396a8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at com.automation.tests.scripts.CreateAccountSalesforce.create_new_view(CreateAccountSalesforce.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_view -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:34 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:07:35 EDT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:35 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:07:39 EDT" duration-ms="4341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="edit_view()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:39 EDT" name="edit_view" finished-at="2023-10-28T12:07:48 EDT" duration-ms="9086" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong username expected [Jency x] but found [Jency galok]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong username expected [Jency x] but found [Jency galok]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.automation.tests.scripts.CreateAccountSalesforce.edit_view(CreateAccountSalesforce.java:131)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_view -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:48 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:07:49 EDT" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:49 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:07:53 EDT" duration-ms="4233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="merge_accounts()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:07:53 EDT" name="merge_accounts" finished-at="2023-10-28T12:08:17 EDT" duration-ms="23822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- merge_accounts -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateAccountSalesforce@54d9d12d]" started-at="2023-10-28T12:08:17 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:08:17 EDT" duration-ms="28" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Dismissed user prompt dialog: These records will be merged into one record using the selected values. Merging can't be undone. Proceed with the record merge?: 
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [96d90155-adaa-4ca5-a7da-4df6d42fad64, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26566, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31364, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:26566/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96d90155-adaa-4ca5-a7da-4df6d42fad64]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: These records will be merged into one record using the selected values. Merging can't be undone. Proceed with the record merge?: 
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [96d90155-adaa-4ca5-a7da-4df6d42fad64, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26566, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31364, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:26566/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96d90155-adaa-4ca5-a7da-4df6d42fad64
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+at com.automation.tests.base.BaseSalesforce.closeBrowser(BaseSalesforce.java:251)
+at com.automation.tests.base.BaseSalesforce.tearDownAfterTestMethod(BaseSalesforce.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.CreateAccountSalesforce -->
+      <class name="com.automation.tests.scripts.CreateopportunitiesSalesforce">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:17 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:08:23 EDT" duration-ms="6379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="create_new_opportunity()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:23 EDT" name="create_new_opportunity" finished-at="2023-10-28T12:08:31 EDT" duration-ms="7212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_new_opportunity -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:31 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:08:32 EDT" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:32 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:08:38 EDT" duration-ms="5532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="opportunities_drop_down()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:38 EDT" name="opportunities_drop_down" finished-at="2023-10-28T12:08:46 EDT" duration-ms="7910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunities_drop_down -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:46 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:08:47 EDT" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:47 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:08:52 EDT" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="test_opportunity_pipeline_report()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:52 EDT" name="test_opportunity_pipeline_report" finished-at="2023-10-28T12:08:59 EDT" duration-ms="7341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_opportunity_pipeline_report -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:08:59 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:09:00 EDT" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:09:00 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:09:05 EDT" duration-ms="4532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="test_quarterly_summary_report()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:09:05 EDT" name="test_quarterly_summary_report" finished-at="2023-10-28T12:09:12 EDT" duration-ms="6948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_quarterly_summary_report -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:09:12 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:09:13 EDT" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:09:13 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:09:17 EDT" duration-ms="4203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="test_stuck_opportunities_report()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:09:17 EDT" name="test_stuck_opportunities_report" finished-at="2023-10-28T12:09:25 EDT" duration-ms="8030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_stuck_opportunities_report -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.CreateopportunitiesSalesforce@38425407]" started-at="2023-10-28T12:09:25 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:09:26 EDT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.CreateopportunitiesSalesforce -->
+      <class name="com.automation.tests.scripts.LoginSalesforcetestcase">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:02:44 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:02:58 EDT" duration-ms="13771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="check_remember_me()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:02:58 EDT" name="check_remember_me" finished-at="2023-10-28T12:03:12 EDT" duration-ms="14741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_remember_me -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:12 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:03:14 EDT" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:14 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:03:19 EDT" duration-ms="4998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="forgot_password()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:19 EDT" name="forgot_password" finished-at="2023-10-28T12:03:24 EDT" duration-ms="5463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_password -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:24 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:03:25 EDT" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:25 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:03:32 EDT" duration-ms="7143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_error_message()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:32 EDT" name="login_error_message" finished-at="2023-10-28T12:03:35 EDT" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_error_message -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:35 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:03:36 EDT" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:36 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:03:41 EDT" duration-ms="5116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="login_to_salesforce()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:41 EDT" name="login_to_salesforce" finished-at="2023-10-28T12:03:44 EDT" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_to_salesforce -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:44 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:03:45 EDT" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:45 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:03:50 EDT" duration-ms="4780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="validate_login_error_message()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:50 EDT" name="validate_login_error_message" finished-at="2023-10-28T12:03:56 EDT" duration-ms="6253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_login_error_message -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.LoginSalesforcetestcase@76505305]" started-at="2023-10-28T12:03:56 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:03:57 EDT" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.LoginSalesforcetestcase -->
+      <class name="com.automation.tests.scripts.UserMenuDropDownsalesforce">
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:03:57 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:04:03 EDT" duration-ms="5786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="logout_from_user_menu()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:03 EDT" name="logout_from_user_menu" finished-at="2023-10-28T12:04:08 EDT" duration-ms="5321" status="FAIL">
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "div"
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+at com.automation.tests.base.BaseSalesforce.selectDropDown(BaseSalesforce.java:213)
+at com.automation.tests.scripts.UserMenuDropDownsalesforce.logout_from_user_menu(UserMenuDropDownsalesforce.java:250)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_from_user_menu -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:08 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:04:10 EDT" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:10 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:04:14 EDT" duration-ms="4421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="my_settings_from_drop_down()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:14 EDT" name="my_settings_from_drop_down" finished-at="2023-10-28T12:04:35 EDT" duration-ms="20782" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element with the reference 82d32593-f83a-4291-8768-a59d82659a9a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e, isElementDisplayed {id=82d32593-f83a-4291-8768-a59d82659a9a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:9714, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47292, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9714/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e)] -> xpath: //*[@id="CustomizeTabs_font"]]
+Session ID: ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element with the reference 82d32593-f83a-4291-8768-a59d82659a9a is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e, isElementDisplayed {id=82d32593-f83a-4291-8768-a59d82659a9a}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:9714, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 47292, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9714/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e)] -> xpath: //*[@id="CustomizeTabs_font"]]
+Session ID: ff3ae9d3-8c99-4803-8ab4-c671d99e7a2e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:283)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+at com.automation.tests.base.BaseSalesforce.waitForVisibility(BaseSalesforce.java:140)
+at com.automation.tests.scripts.UserMenuDropDownsalesforce.my_settings_from_drop_down(UserMenuDropDownsalesforce.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_settings_from_drop_down -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:35 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:04:36 EDT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:36 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:04:40 EDT" duration-ms="4087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="select_myprofile_from_drop_down()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:04:40 EDT" name="select_myprofile_from_drop_down" finished-at="2023-10-28T12:05:16 EDT" duration-ms="35861" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="uploadLink" href="javascript:void(0);"> could not be scrolled into view
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [936430a5-292d-4688-aef4-cb0bb6fce565, clickElement {id=7888b3e2-3035-496b-b131-3e76e05d7122}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:2868, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 35832, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:2868/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (936430a5-292d-4688-aef4-cb0bb6fce565)] -> id: uploadLink]
+Session ID: 936430a5-292d-4688-aef4-cb0bb6fce565]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="uploadLink" href="javascript:void(0);"> could not be scrolled into view
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [936430a5-292d-4688-aef4-cb0bb6fce565, clickElement {id=7888b3e2-3035-496b-b131-3e76e05d7122}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:2868, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 35832, moz:profile: C:\Users\jency\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:2868/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (936430a5-292d-4688-aef4-cb0bb6fce565)] -> id: uploadLink]
+Session ID: 936430a5-292d-4688-aef4-cb0bb6fce565
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.automation.tests.base.BaseSalesforce.clickElement(BaseSalesforce.java:184)
+at com.automation.tests.scripts.UserMenuDropDownsalesforce.select_myprofile_from_drop_down(UserMenuDropDownsalesforce.java:173)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_myprofile_from_drop_down -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:05:16 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:06:26 EDT" duration-ms="70264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeTestMethod(java.lang.String)[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:06:26 EDT" name="setUpBeforeTestMethod" finished-at="2023-10-28T12:06:30 EDT" duration-ms="4470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTestMethod -->
+        <test-method signature="select_user_menu_from_drop_down()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:06:30 EDT" name="select_user_menu_from_drop_down" finished-at="2023-10-28T12:06:37 EDT" duration-ms="6685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_user_menu_from_drop_down -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.automation.tests.scripts.UserMenuDropDownsalesforce@3c41ed1d]" started-at="2023-10-28T12:06:37 EDT" name="tearDownAfterTestMethod" finished-at="2023-10-28T12:06:38 EDT" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.automation.tests.scripts.UserMenuDropDownsalesforce -->
+    </test> <!-- MyTest -->
+  </suite> <!-- MySuite -->
+</testng-results>
