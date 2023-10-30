@@ -27,9 +27,8 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 	private static void my_settings_from_drop_down() throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.out.println("*********Select settings from drop down test case started*******");
-	
+		Thread.sleep(2000);
 		 logintoBrowser();
-	//	 maximiseBrowser();
 		 Thread.sleep(3000);		
 		 WebElement usermenu= driver.findElement(By.cssSelector("#userNav"));
 		 	waitForVisibility(usermenu,80);
@@ -49,7 +48,6 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 		 Thread.sleep(2000);
 		 driver.switchTo().defaultContent();
 		 driver.navigate().refresh();
-		 
 		 WebElement display = driver.findElement(By.xpath("/html/body/div/div[2]/table/tbody/tr/td[1]/div/div[4]/div[3]/a"));
 		 waitForVisibility(display,90);
 		 Thread.sleep(4000);
@@ -58,9 +56,6 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 		 WebElement customize = driver.findElement(By.xpath("//*[@id=\"CustomizeTabs_font\"]"));
 		 clickElement(customize,"Customize ");
 		 waitForVisibility(customize,90);
-		 
-		// WebElement select = driver.findElement(By.xpath("//*[@id=\"p4\"]"));
-		//select.
 
 		 	System.out.println("*********Select settings from drop down test case ended****");
 	}
@@ -70,14 +65,13 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 		// TODO Auto-generated method stub
 		
 		System.out.println("*********Select My profile from drop down test case started*******");
-		String actual_text="Hello world";
-		 logintoBrowser();
-	//	 maximiseBrowser();
+		String actual_text="Hello";
+		Thread.sleep(2000); 
+		logintoBrowser();
 		 Thread.sleep(4000);		
 		 WebElement usermenu= driver.findElement(By.cssSelector("#userNav"));
 		 	waitForVisibility(usermenu,60);
 		 	 clickElement(usermenu,"Usernav ");
-		 
 		 	WebElement profile = driver.findElement(By.linkText("My Profile"));
 		 	waitForVisibility(profile,50);
 		 	 clickElement(profile,"My profile");
@@ -85,31 +79,29 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 	 	WebElement edit_button = driver.findElement(By.cssSelector(".contactInfoLaunch > img:nth-child(1)"));
 		 	waitForVisibility(edit_button,50);
 		 	 clickElement(edit_button,"Edit ");
-		 
 		 	Thread.sleep(2000);
 		 	driver.switchTo().frame("contactInfoContentId");
 		 	WebElement about_tab= driver.findElement(By.xpath("/html/body/div/div/div/div[1]/ul/li[1]/a"));	
 		 	waitForVisibility(about_tab,85);
 		 	 clickElement(about_tab,"About ");
-		
-		 	
 		 	WebElement lastname = driver.findElement(By.id("lastName"));
 		 	enterText(lastname,"x","lastname");
 		 	
 		 	WebElement save = driver.findElement(By.xpath("/html/body/div/div/div/div[2]/form/div/input[1]"));
 		 	waitForVisibility(save,70);
 		 	 clickElement(save,"Save ");
-			
 		 	Thread.sleep(1000);
 		 	
 		 	driver.switchTo().defaultContent();
 		 	
-		 	//WebElement title = driver.findElement(By.xpath("//*[@id=\"tailBreadcrumbNode\"]"));
-		 	//Assert.assertEquals(lastname.getText(),title);
+		 	WebElement title = driver.findElement(By.xpath("//*[@id=\"tailBreadcrumbNode\"]"));
+		 	String originalString = title.getText();
+		 	String updatedString = originalString.replaceAll("\\s+$", "");
+		 	Assert.assertEquals("Jency x",updatedString);
 		 	WebElement pst_button = driver.findElement(By.xpath("//*[@id=\"publisherAttachTextPost\"]"));
 		 	clickElement(pst_button,"Post ");
 		 	
-		 	Thread.sleep(2000);
+		 	Thread.sleep(3000);
 		 	WebElement frame1 = driver.findElement(By.xpath("/html/body/div[1]/div[2]/table/tbody/tr/td/div/div[3]/div[1]/div/div[1]/div/div[2]/ul/li[1]/div/div/div[1]/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div/iframe"));
 		 	//WebElement frame1= driver.findElement(By.className("cke_wysiwyg_frame"));
 		 	//	String new =frame1.getAttribute(frame1);
@@ -119,30 +111,27 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 			Thread.sleep(3000);
 			waitForVisibility(text_area,120);
 			clickElement(text_area,"Text area");
-			//enterText(text_area,"hello world","Text area");	
-			
-			text_area.sendKeys("Hello world");
-				
+		//		enterText(text_area, "Hello", "Text");
+			text_area.sendKeys("Hello");
 				driver.switchTo().defaultContent();
 				Thread.sleep(2000);
 				WebElement share_button = driver.findElement(By.xpath("//*[@id=\"publishersharebutton\"]"));
 				clickElement(share_button,"Share ");
-				Thread.sleep(2000);
-				WebElement text_entered = driver.findElement(By.xpath("/html/body/div[1]/div[2]/table/tbody/tr/td/div/div[3]/div[1]/div/div[1]/div/div[2]/ul/li[1]/div/div/div[2]/div/div[5]/div/div[1]/div[1]/div[2]/div[1]/span/p"));
+				Thread.sleep(4000);
+				
+				WebElement text_entered = driver.findElement(By.xpath("/html/body/div[1]/div[2]/table/tbody/tr/td/div/div[3]/div[1]/div/div[1]/div/div[2]/ul/li[1]/div/div/div[2]/div/div[5]/div/div[1]/div[1]/div[2]/div[1]/span"));
 				Assert.assertEquals(text_entered.getText(),actual_text,"Text entered not same");
 				
 				WebElement file = driver.findElement(By.linkText("File"));
 				waitForVisibility(file,60);
 				clickElement(file,"File ");
-				
 				WebElement file_upload = driver.findElement(By.id("chatterUploadFileAction"));
 				waitForVisibility(file_upload,60);
 				clickElement(file_upload,"File Upload");
-				
 				Thread.sleep(2000);
 				WebElement browse_button = driver.findElement(By.xpath("//*[@id=\"chatterFile\"]"));
 				waitForVisibility(browse_button,60);
-				//clickElement(browse_button,"Browse button");
+				
 				JavascriptExecutor js =(JavascriptExecutor)driver;
 				js.executeScript("arguments[0].click();", browse_button);
 	
@@ -160,13 +149,8 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 				robot.keyRelease(KeyEvent.VK_ENTER);
 				Thread.sleep(2000);
 				browse_button.sendKeys("C:\\untitled.png");
-				
-				
 				WebElement share_button1 = driver.findElement(By.xpath("//*[@id=\"publishersharebutton\"]"));
-				clickElement(share_button1,"Share ");
-				
-			
-				
+				clickElement(share_button1,"Share ");			
 				WebElement upload_photo = driver.findElement(By.id("uploadLink"));
 				mouseOver(driver, upload_photo);
 				waitForVisibility(upload_photo,20);
@@ -176,7 +160,7 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 				Thread.sleep(2000);
 				WebElement browse_butt= driver.findElement(By.xpath("//*[@id=\"j_id0:uploadFileForm:uploadInputFile\"]"));
 				waitForVisibility(browse_butt,30);
-				//clickElement(browse_button,"Browse button");
+	
 				JavascriptExecutor js1 =(JavascriptExecutor)driver;
 				js1.executeScript("arguments[0].click();", browse_butt);
 	
@@ -195,74 +179,69 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 				Thread.sleep(2000);
 				browse_butt.sendKeys("C:\\untitled.png");
 				
-				
 				WebElement save_button1 = driver.findElement(By.xpath("//*[@id=\"j_id0:uploadFileForm:uploadBtn\"]"));
 				clickElement(save_button1,"Save ");
-				
 					Thread.sleep(4000);
-				
 				WebElement save1 = driver.findElement(By.xpath("//*[@id=\"j_id0:j_id7:save\"]"));
-				clickElement(save,"Save ");
-			
-				
+				clickElement(save,"Save ");		
 			Thread.sleep(2000);
 		
 		 	System.out.println("*********Select My profile from drop down test case ended*******");
 	}
 
+@Test
+
 	private static void select_developer_console_from_drop_down() throws InterruptedException {
 		// TODO Auto-generated method stub
-		//launchBrowser("firefox");
-	//	gotoUrl("https://login.salesforce.com/");
+	System.out.println("**********Select developer console from drop down test case started*************");
+	String username1="Jency x";	
+		Thread.sleep(2000);
 		 logintoBrowser();
 		 Thread.sleep(2000);		
 		 WebElement usermenu= driver.findElement(By.cssSelector("#userNav"));
-		 	waitForVisibility(usermenu,20);
-		 	usermenu.click();
-		 	WebElement developer_con= driver.findElement(By.xpath("/html/body/div/div[1]/table/tbody/tr/td[3]/div/div[3]/div/div/div[2]/div[3]/a[3]"));
-		 	developer_con.click();
-		 	
-		 /*	String Title=developer_con.getText();
-		 	System.out.println(Title);*/
+		 waitForVisibility(usermenu,20);
+		 clickElement(usermenu,"Usermenu");
+		 	List<WebElement> list = driver.findElements(By.xpath("//div[@id='userNav-menuItems']//a"));
+			for(WebElement ele:list)
+			{
+			System.out.println(ele.getAttribute("title"));
+			}
+			WebElement developer_con= driver.findElement(By.xpath("/html/body/div/div[1]/table/tbody/tr/td[3]/div/div[3]/div/div/div[2]/div[3]/a[3]"));
+			clickElement(developer_con,"Dwveloper Console");
 		 	Thread.sleep(2000);
-		 
 			ArrayList<String> openwindow=new ArrayList<String>(driver.getWindowHandles());
 			openwindow.size();
-			System.out.println(openwindow.size());
+		//	System.out.println(openwindow.size());
 			driver.switchTo().window(openwindow.get(1));
 			Thread.sleep(2000);
 			driver.close();
 			driver.switchTo().window(openwindow.get(0));
-		// 	driver.close();
+	
+			System.out.println("**********Select developer console from drop down test case started*************");
+	
 	}
 @Test
 
 	private static void logout_from_user_menu() throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.out.println("**********Select logout from drop down test case started*************");
-		//launchBrowser("firefox");
-	//	gotoUrl("https://login.salesforce.com/");
+		String username1="Jency x";
 		Thread.sleep(2000);
-		 logintoBrowser();	
+		logintoBrowser();	
 		 Thread.sleep(2000);
-	 	
-	 	WebElement trial= driver.findElement(By.xpath("//*[@id=\"userNavButton\"]"));
-	  selectDropDown(trial,"Logout");
-	 	clickElement(trial,"User ");
-		// selectDropDown(usermenu,"Logout");
-	/* 	WebElement logout = driver.findElement(By.xpath("/html/body/div/div[1]/table/tbody/tr/td[3]/div/div[3]/div/div/div[2]/div[3]/a[5]"));
-		if(logout.isDisplayed())
-		{
-			clickElement(logout,"Logout ");
-		System.out.println("Logged out Successful");
-		}
-		else
-		{
-			System.out.println("Logout failed");
-		}
-	 */
-	 Thread.sleep(2000);
-	 //	driver.close();
+			WebElement userName = driver.findElement(By.xpath("//*[@id=\"userNavLabel\"]"));
+			waitForVisibility(userName,20);
+		    Assert.assertEquals(userName.getText(), username1);
+		   	WebElement usermenu= driver.findElement(By.cssSelector("#userNav"));
+		 	waitForVisibility(usermenu,20);
+		 	clickElement(usermenu,"usermenu ");	
+		 	List<WebElement> list = driver.findElements(By.xpath("//div[@id='userNav-menuItems']//a"));
+			for(WebElement ele:list)
+			{
+			System.out.println(ele.getAttribute("title"));
+			}
+		 	WebElement logout = driver.findElement(By.xpath("/html/body/div/div[1]/table/tbody/tr/td[3]/div/div[3]/div/div/div[2]/div[3]/a[5]"));
+		 	clickElement(logout,"Logout");
 		
 	System.out.println("**********Select logout from drop down test case ended*************");
 
@@ -272,29 +251,22 @@ public class UserMenuDropDownsalesforce extends BaseSalesforce{
 	private static void select_user_menu_from_drop_down() throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.out.println("**********Select user menu from drop down test case started*************");
-		
-	//	launchBrowser("firefox");
-	//	gotoUrl("https://login.salesforce.com/");
+		String username1="Jency x";
 		Thread.sleep(2000);
 		 logintoBrowser();
 		 Thread.sleep(3000);	
-		String username1="Jency x";
-		
 		WebElement userName = driver.findElement(By.xpath("//*[@id=\"userNavLabel\"]"));
 		waitForVisibility(userName,20);
 	    Assert.assertEquals(userName.getText(), username1);
-	    
 	 	WebElement usermenu= driver.findElement(By.cssSelector("#userNav"));
 	 	waitForVisibility(usermenu,20);
 	 	clickElement(usermenu,"usermenu ");
-	
 		List<WebElement> list = driver.findElements(By.xpath("//div[@id='userNav-menuItems']//a"));
 		for(WebElement ele:list)
 		{
 		System.out.println(ele.getAttribute("title"));
 		}
 	
-	//	closeBrowser();
 	System.out.println("**********Select user menu from drop down test case ended*************");
 
 }

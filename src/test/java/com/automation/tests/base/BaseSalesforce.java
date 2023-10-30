@@ -82,6 +82,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 				System.out.println("You have not entered the correct browser");
 			}
 	}
+		public static String getPageTitle() {
+			return driver.getTitle();
+		}
 		public static void logintoBrowser()
 		{
 			WebElement username = driver.findElement(By.id("username"));
@@ -121,6 +124,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 				System.out.println("Login failed");
 			}
 
+		}
+
+		public static String getTextFromElement(WebElement element, String objectName)
+		{
+			String data = element.getText();
+			System.out.println(data + "text extracted from " + objectName);
+			return data;
 		}
 		
 		public static void waitForVisibility(WebElement ele,int time,int pollingtime,String objectName)
@@ -171,7 +181,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 			if(ele.isDisplayed())
 			{
 				
-				System.out.println(ObjectName+" Elemnet is enetered in the object");
+				System.out.println(ObjectName+" Element is enetered in the object");
 			}
 			else
 			{

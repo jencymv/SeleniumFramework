@@ -16,23 +16,20 @@ public class LoginSalesforcetestcase extends BaseSalesforce{
 private static void forgot_password() throws InterruptedException {
 	// TODO Auto-generated method stub
 	System.out.println("***********************Forgot password testcase started*******************");
-//	launchBrowser("firefox");
-	//gotoUrl("https://login.salesforce.com/");
 	Thread.sleep(3000);
-	
 	WebElement forgot_pass= driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/div[2]/div[3]/div/a[1]"));
 	clickElement(forgot_pass,"Forgot");
-	//forgot_pass.click();
 	Thread.sleep(2000);
 	WebElement id = driver.findElement(By.id("un"));
-	if(id.isDisplayed())
-	{
-		id.sendKeys("jencyv1619@gmail.com");
-		WebElement continu= driver.findElement(By.id("continue"));
-		clickElement(continu,"Continue ");
-		System.out.println("Password reset link send");
-	}
-	//	driver.close();
+	enterText(id,"jencyv1619@gmail.com","Id");
+	WebElement continu= driver.findElement(By.id("continue"));
+	waitForVisibility(continu,5);
+	clickElement(continu,"Continue ");
+	WebElement headerElement = driver.findElement(By.id("header"));
+	String actual=getTextFromElement(headerElement, "header");
+	System.out.println(actual);
+	Assert.assertEquals(actual,"Check Your Email" ,"Testcase failed");
+	
 System.out.println("************Forgot Password Test case ended*****************");
 }
 
@@ -42,63 +39,31 @@ private static void check_remember_me() throws InterruptedException {
 	// TODO Auto-generated method stub
 	System.out.println("**********Check Remeber me Test case started*************");
 	String expected ="jencyv1619@gmail.com";
-	
 	Thread.sleep(3000);
-	//logintoBrowser();
 	WebElement username = driver.findElement(By.id("username"));
-	//username.clear();
 	waitForVisibility(username,10);
-	if(username.isDisplayed())
-	{
-		username.sendKeys("jencyv1619@gmail.com");
-	System.out.println("Username is displayed");
-}
-else
-{
-	System.out.println("Username not displayed");
-}
+	enterText(username,"jencyv1619@gmail.com","username");
 	
 	WebElement password = driver.findElement(By.id("password"));
+	waitForVisibility(password,10);
+	enterText(password,"Password123","password");
 	
-	if(password.isDisplayed())
-	{
-	password.clear(); 
-	password.sendKeys("Password123");
-	
-	}
-	else
-	{
-		System.out.println("Wrong Password");
-	}
-
 	WebElement remember_me = driver.findElement(By.id("rememberUn"));
 	waitForVisibility(remember_me,20);
 	clickElement(remember_me,"Remember Me ");
 
 	WebElement login_but= driver.findElement(By.id("Login"));
 	waitForVisibility(login_but,5);
-	if(login_but.isDisplayed())
-	{
-	login_but.click();
-	System.out.println("Login Successful");
-	}
-	else
-	{
-		System.out.println("Login failed");
-	}
-	Thread.sleep(4000);
+	clickElement(login_but,"Login ");
+
+	Thread.sleep(3000);
 	WebElement nav_button = driver.findElement(By.id("userNavLabel"));
 	clickElement(nav_button,"Navigation ");
 	WebElement logout_but= driver.findElement(By.xpath("/html/body/div[1]/div[1]/table/tbody/tr/td[3]/div/div[3]/div/div/div[2]/div[3]/a[5]"));
 	waitForVisibility(logout_but,10);
 	clickElement(logout_but,"Logout ");
-	Thread.sleep(5000);
-/*	WebElement username1 = driver.findElement(By.id("username"));
-	waitForVisibility(username1,20);
-	String id = username1.getAttribute("value");
-	Assert.assertEquals(expected, id);
+	Thread.sleep(3000);
 
-	*/
 	System.out.println("**********Check Remember me Test case Ended**********************");
 }
 
@@ -107,9 +72,6 @@ private static void validate_login_error_message() throws InterruptedException {
 	// TODO Auto-generated method stub
 	
 	System.out.println("**************Validate login error message test case started***********");
-//	WebDriver driver= new FirefoxDriver();
-//	driver.get("https://login.salesforce.com/");
-	
 
 Thread.sleep(2000);
 	WebElement username = driver.findElement(By.id("username"));
@@ -123,7 +85,6 @@ Thread.sleep(2000);
 	{
 		System.out.println("Username not displayed");
 	}
-	
 	
 	WebElement password= driver.findElement(By.id("password"));
 	if(password.isDisplayed())
@@ -148,8 +109,7 @@ Thread.sleep(2000);
 		System.out.println("Login button not displayed");
 	}
 
-	Thread.sleep(4000);
-	//closeBrowser();
+	Thread.sleep(2000);
 	System.out.println("*****Validate Login Error message test case ended*****");
 }	
 @Test
@@ -158,7 +118,7 @@ private static void login_to_salesforce() throws InterruptedException {
 System.out.println("************Login to Salesforce test case started******");
 Thread.sleep(2000);
 	logintoBrowser();
-	//closeBrowser();
+	
 System.out.println("*************Login to Salesforce test case ended*****");	
 }	
 
@@ -167,9 +127,6 @@ System.out.println("*************Login to Salesforce test case ended*****");
 private static void login_error_message() throws InterruptedException {
 	// TODO Auto-generated method stub
 	System.out.print("******Login Error Message test case started*******");
-//	WebDriver driver= new FirefoxDriver();
-	//driver.get("https://login.salesforce.com/");
-	
 
 Thread.sleep(2000);
 	WebElement username = driver.findElement(By.id("username"));
@@ -193,7 +150,7 @@ Thread.sleep(2000);
 	}
 	else
 	{
-		System.out.println("");
+		System.out.println("Element not found");
 	}
 	
 	WebElement login_but= driver.findElement(By.id("Login"));
@@ -206,8 +163,6 @@ Thread.sleep(2000);
 	{
 		System.out.println("Login button not displayed");
 	}
-
-	//driver.close();
 System.out.println("********Login error message test case ended***********");	
 }	
 }
